@@ -1,4 +1,4 @@
-= puppet-graphite
+# puppet-graphite
 
 This currently provides basic configuration of a graphite node.
 
@@ -6,13 +6,13 @@ Packages are built using this Rakefile: https://gist.github.com/1820876
 
 Tested on Debian Squeeze only.
 
-== Basic Usage
+## Basic Usage
   include graphite::whisper
   include graphite::carbon
   include graphite::carbon::amqp # if you want amqp support
   include graphite::web
 
-== Classes
+## Classes
 
 graphite::carbon::config:
 
